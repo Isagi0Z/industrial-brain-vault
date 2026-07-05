@@ -1,0 +1,85 @@
+---
+type: overview
+title: "Wiki Overview"
+created: 2026-04-07
+updated: 2026-04-07
+tags:
+  - meta
+  - overview
+status: developing
+related:
+  - "[[index]]"
+  - "[[hot]]"
+  - "[[log]]"
+  - "[[dashboard]]"
+  - "[[LLM Wiki Pattern]]"
+sources:
+---
+
+# Wiki Overview
+
+Navigation: [[index]] | [[hot]] | [[log]] | [[dashboard]]
+
+---
+
+## Purpose
+
+This is the claude-obsidian demo vault. It demonstrates the [[LLM Wiki Pattern]] — a system for building persistent, compounding knowledge bases using Claude and Obsidian.
+
+Run `/wiki` to scaffold this vault for your own domain and replace this overview.
+
+---
+
+## Industrial Brain OS (project knowledge base)
+
+This vault also hosts an additive, Mode-B engineering Second Brain for the
+**[[Industrial Brain OS]]** project: a production-oriented industrial GraphRAG
+platform (FastAPI + React) that ingests engineering documents into a
+[[Knowledge Graph]] and answers grounded, cited questions through five
+[[Intelligence Brains]].
+
+Start at the master MOC: **[[Industrial Brain OS]]**. Full catalogs:
+[[domains/_index|Domains Index]] and [[modules/_index|Modules Index]]. All of its
+pages carry the `#industrial-brain` tag; none of the claude-obsidian demo pages
+were changed.
+
+---
+
+## Current Seed Content
+
+
+**Concepts seeded:**
+- [[LLM Wiki Pattern]] — the core architecture
+- [[Hot Cache]] — session context mechanism
+- [[Compounding Knowledge]] — why the pattern works
+
+**Entities seeded:**
+- [[Andrej Karpathy]] — originated the pattern
+
+**Sources seeded:**
+- [[claude-obsidian-ecosystem-research]] — 16+ projects, 13 cherry-picks identified (2026-04-08)
+
+---
+
+## Current State
+
+- Sources ingested: 2
+- Wiki pages: 26
+- Last activity: 2026-04-08 (v1.4.1 shipped, release session filed)
+
+---
+
+## Canvases
+
+- [[claude-obsidian-presentation]] — Full presentation: hero, overview, skills, architecture, Wiki vs RAG, visual demos (2026-04-07)
+- [[AI Marketing Hub Cover Images Canvas]] — Cover image library for AI Marketing Hub brand assets
+
+---
+
+## Key Themes
+
+**Knowledge compounds.** Unlike RAG, the wiki pre-compiles synthesis. Cross-references are already there. Contradictions are flagged. Every ingest enriches existing pages rather than adding isolated chunks.
+
+**The hot cache is the force multiplier.** A ~500-word file captures recent context. New sessions start with full context at minimal token cost.
+
+**Obsidian is the IDE, Claude is the programmer.** The graph view shows what's connected. The human curates sources and asks questions. Claude writes and maintains everything else.
